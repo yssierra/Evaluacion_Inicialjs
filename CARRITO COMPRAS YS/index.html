@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carro de compras</title>
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        
+
+        <h1 class="title">Nuevos Productos</h1>
+
+    
+            </div>
+
+
+
+                <div class="product-grid__info">
+                    <img src="img/compu.jpg" alt="Computador">
+                    <p class="product-grid__name">Computador Samsung</p>
+                    <p class="product-grid__price">$2.500.000</p>
+                    <a href="#" class="product-grid__btn btn-default" data-btn-action="add-btn-cart" data-modal="#jsModalCarrito" >Agregar al carrito</a>
+                </div>
+
+            </div>
+
+           
+        <!--MODAL CARRITO-->
+        <div class="modal" id="jsModalCarrito">
+            <div class="modal__container">
+                <button type="button" class="modal__close fa-solid fa-xmark jsModalClose "></button>
+
+                <div class="modal__info">
+                    <div class="modal__header">
+                        <h2><i class="fa-brands fa-opencart"></i>Carro de compras</h2>
+                    </div>
+
+                    <div class="modal__body">
+                        <div class="modal__list">
+                            <div class="modal__item">
+                                <div class="modal__thumb">
+                                    <img src="img/compu.jpg" alt="Computador">
+                                </div>
+                                <div class="modal__text-product">
+                                    <p>computador hp pavilion</p>
+                                    <p><strong>$2.500.000</strong></p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="modal__footer">
+                        <div class="modal__list-price">
+                            <ul>
+                                <li>Subtotal: <strong>$2.500.000</strong></li>
+                                <li>Descuento: <strong>$0.00</strong></li>
+                            </ul>
+                            <h4 class="modal__total-cart"> Total: $2.500.000</h4>
+                        </div>
+
+                        <div class="modal__btns">
+                            <a href="#" class="btn-border">Eliminar</a>
+                            <a href="#" class="btn-border">Comprar Ahora</a>
+                            <a href="#" class="btn-border">+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
